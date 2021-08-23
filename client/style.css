@@ -1,0 +1,19 @@
+code {
+    background-color: lightgray;
+    font-weight: 500;
+    padding: 0.75em;
+    border-radius: 2px;
+    line-height: 2.25em;
+    display: block;
+    cursor: pointer;
+}
+
+.note {
+    font-style: italic;
+    opacity: 1;
+}
+
+.fade-out {
+    transition: opacity 1.5s ease-out;
+    opacity: 0;
+}

@@ -1,0 +1,14 @@
+##################################################
+# Initial test for setting the 'code' endpoint
+POST http://localhost:1235/code
+Content-Type: application/json
+
+{
+    "code": "blah"
+}
+
+##################################################
+# /ping
+# endpoint to test web server basic functionality
+GET http://localhost:1235/ping
+Content-Type: application/json
